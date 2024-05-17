@@ -10,6 +10,8 @@ website:
         text: Giriş
       - href: about.qmd
         text: Hakkımızda
+      - href: company.qmd
+        text: Türk Traktör
       - href: scope.qmd
         text: Proje Kapsamı
       - href: method.qmd
