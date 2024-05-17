@@ -1,3 +1,25 @@
 ---
 title: "Türk Traktör"
 ---
+
+::: {style="text-align: justify;"}
+Türk otomotiv sektörünün ilk üretici kuruluşu olan TürkTraktör’ün kurumsal yapılanmasını, ülkemizde güvenin bir diğer ifadesi olan Koç Holding ve dünyanın en büyük traktör ve zirai ekipman üreticilerinden CNH Industrial ortaklığı oluşturmaktadır.
+:::
+
+![](company.jpg){fig-align="center"}
+
+::: {style="text-align: justify;"}
+Türkiye’nin üretim öncülerinden TürkTraktör, endüstriyel hayatına 1954 yılında başlamış ve yıllar içerisinde yükselen bir grafikle, bugün gelinen noktada başta Kuzey Amerika ve Avrupa olmak üzere şimdiye kadar 125 ülkeye yaptığı ihracatla ülkemizin önemli kuruluşlarından biri olmuştur.
+:::
+
+::: {style="text-align: justify;"}
+New Holland, Case IH ve Steyr marka traktörleri aynı anda üretebilme özelliğine sahip bulunan TürkTraktör, New Holland TDD ile Case IH JX seri traktörlerin ve farklı özel serilerinin dünyadaki tek tasarım merkezi; Utility Light seri traktörlerin dünyadaki ana üretim merkezi ve 66 serisi transmisyonlar için dünyadaki tek mühendislik ve üretim merkezi konumundadır. 2013 yılında Case ve New Holland markalarının; mini yükleyici, kazıcı yükleyici, kompakt yükleyici, lastikli yükleyici, mini ekskavatör, paletli ekskavatör ve teleskopik yükleyici gibi ürünleriyle iş makineleri pazarına da giriş yapan TürkTraktör, kurumsal gelişimine yeni bir boyut eklemiştir.
+:::
+
+![](tlb1.jpg){fig-align="center"}
+
+::: {style="text-align: justify;"}
+Bizim odak noktamız ise inşaat makinelerinin montaj hattı, özellikle kazıcı yükleyici olacaktır. 2013 yılında, Türk Traktör Case ve New Holland markalarının Türkiye pazarındaki distribütörü olarak inşaat makineleri pazarına girdi. Mini yükleyiciler, kazıcı yükleyiciler, kompakt yükleyiciler, tekerlekli yükleyiciler, mini ekskavatörler, paletli ekskavatörler ve teleskopik yükleyiciler gibi ürünleri dağıtmaya başladılar. İnşaat makineleri alanında hızla başarı elde eden Türk Traktör, 2020 yılında bu sektördeki yatırımlarına yeni bir boyut ekledi. Şirket, Ankara Fabrikası'nda kazıcı yükleyici ürünlerinin yerli üretimine başlayarak inşaat makineleri sektöründeki yükselen başarısına katkıda bulunmuştur.
+:::
+
+![](tlb2.jpg){fig-align="center"}
