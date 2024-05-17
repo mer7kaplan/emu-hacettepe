@@ -3,12 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "emu-hacettepe"
+  title: "EMU Hacettepe"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Giriş
+      - href: about.qmd
+        text: Hakkımızda
 
 format:
   html:
