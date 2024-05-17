@@ -1,3 +1,67 @@
 ---
 title: "Proje Kapsamı"
 ---
+
+::: {style="text-align: justify;"}
+Proje, Türk Traktör'deki TLB iş makineleri montaj hattındaki verimsizliklere odaklanacak şekilde titizlikle tasarlanmıştır. Kapsamlı çerçevesi şu ana alanları içermektedir:
+
+-   Montaj Hattı İyileştirmesi: İstasyon süresini en aza indirmek, kapasiteyi artırmak ve genel montaj sürecini iyileştirmek için Yalın Üretim ilkelerinin uygulanması.
+
+-   Yerleşim Yeri Planlaması: Operasyonel verimliliği ve iş akışını maksimize etmek için montaj hattının stratejik olarak yeniden değerlendirilmesi ve yeniden tasarımı.
+
+-   Hat Dengeleme: Montaj hattındaki farklı istasyonlar arasındaki iş yükünün hassas bir şekilde dengelenmesi, darboğazları azaltmak ve kaynak kullanımını optimize etmek.
+
+-   Alt Grup Organizasyonu: Montaj hattına katkıda bulunan alt grupların düzenlenmesi ve optimize edilmesi, bileşenlerin kusursuz ve verimli bir şekilde akışını sağlamak.
+
+***Proje Kapsamı Dışında Kalanlar:***
+
+-   Montaj hattı verimliliğine vurgu yapılırken, projenin kapsamı genel ürünün veya bileşenlerinin yeniden tasarımını içermemektedir.
+
+-   Montaj sonrası kalite kontrol aşamaları, örneğin test ve denetim, projenin kapsamı dışında kalmaktadır.
+
+-   Optimizasyon çabaları, bileşenlerin üretimi ile ilgili işleme aşamalarının iyileştirilmesini kapsamaz.
+:::
+
+## Problem Tanıtımı
+
+::: {style="text-align: justify;"}
+Problem, yeni kurulan inşaat makineleri montaj hattındaki verimsizliklerdir. Bu verimsizlikler, genel üretkenlikte ve operasyonel etkinlikte önemli bir düşüşe neden olmaktadır. Montaj hattını besleyen alt gruplardaki düzensizlikler de verimsizliği etkilemektedir. İnşaat makineleri montaj hattının sorunsuz çalışmasını sağlayan üretim ve operasyon planlama ekipleri bu sorunlardan doğrudan etkilenmektedir.
+
+***Verimsizliklerin sebepleri:***
+
+-   Montajda sistematik ve bütünsel bir yaklaşım eksikliği
+
+-   Sistematik ve optimize edilmiş bir düzen eksikliği
+
+-   Uygun çalışma koşulları eksikliği
+
+Sonuç olarak, inşaat makineleri montaj hattındaki verimsizliklerin giderilmesi, TürkTraktör'ün operasyonel etkinliğini yeniden kazanması ve iyileştirmesi için kritik öneme sahiptir. Sorunları belirleme ve çözme konusunda sistematik bir yaklaşım, daha verimli bir sürece katkıda bulunarak hem şirketin hem de üretim ekiplerinin faydasına olacaktır.
+:::
+
+![Eski Layout Düzeni](layout.png){fig-align="center"}
+
+## Çalışmanın Kısıtları
+
+::: {style="text-align: justify;"}
+-   **Üretim Sürekliliği:** Mevcut montaj hattının tüm operasyonu, iyileştirme süreci boyunca baskın durumdadır. Proje, mevcut iş akışında kesinti olmadan müşteri siparişlerini karşılamak için sürekli üretimi sağlamalıdır.
+
+-   **İstasyon Kapasite Sınırlamaları:** Her montaj istasyonunun belirli kapasite sınırlamaları vardır. Bu sınırlamalar, istasyonlarda kullanılan ekipman ve süreçlerle ilgili olup, iyileştirmelerin uygulanması sırasında dikkate alınmalıdır.
+
+-   **Maliyet Kısıtları:** Proje iyileştirmeleri ile ilgili maliyetler, önceden belirlenmiş bütçe kısıtlarına uymalıdır. Yatırım getirisi ve maliyet-performans oranlarının dikkatlice değerlendirilmesi, finansal sınırlamalara uyum sağlamak için gereklidir.
+:::
+
+## **Multidisipliner Yaklaşımlar ve Etkileşimler**
+
+::: {style="text-align: justify;"}
+Montaj hattı dengeleme problemi üzerinde çalışan Endüstri Mühendisliği ekibinin bir üyesi olarak, farklı disiplinlerden ve geçmişlerden gelen çalışanlarla etkili işbirliği yapmak, kapsamlı ve başarılı bir çözüm için çok önemlidir. Montaj hattını çeşitli yönlerden iyileştirme amacıyla yapılan işbirliği, endüstri mühendisliği alanının ötesine geçer ve farklı geçmişlere ve disiplinlere sahip profesyonelleri içerir.
+
+-   **Bilgisayar Mühendisliği:** Montaj hattında kullanılan AGV (Otomatik Yönlendirmeli Araç) yazılımını düzenler ve optimize eder, bu da iş akışının otomasyonu ve verimliliği açısından kritiktir.
+
+-   **Makine Mühendisliği:** Montaj hattında kullanılan makine ve bileşenlerin tasarımı ve optimizasyonuna odaklanır.
+
+-   **Elektrik Mühendisliği:** Montaj hattında ileri teknolojilerin uygulanması için kritik olabilecek elektrik sistemleri ve otomasyon ile ilgilenir.
+
+-   **Üretim Mühendisliği:** Üretim sistemlerinin verimli ve maliyet etkin olmasını sağlamak için kullanılan teknikler ve süreçler üzerinde yoğunlaşır.
+
+-   **Endüstriyel Tasarım:** İş istasyonlarının ergonomik iyileştirmelerine katkıda bulunarak ürünlerin estetiği, kullanılabilirliği ve genel kullanıcı deneyimi ile ilgilenir.
+:::
