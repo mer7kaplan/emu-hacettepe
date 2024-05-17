@@ -13,7 +13,7 @@ Analiz kısmında, başlangıçta alt grupları ayrıntılı bir şekilde incele
 :::
 
 ```{=html}
-<iframe width="780" height="500" src="https://en.dwgfastview.com/openDwg?type=175a0e83376a1994c1b8b72d92363f41a7370561bb2c01cb51670ce7e8dcca2c551266a07a66848b" title="AutoCAD"></iframe>
+<iframe width="780" height="500" src="https://web.autocad.com/" title="AutoCAD"></iframe>
 ```
 ![](new_layout.jpg){fig-align="center"}
 
