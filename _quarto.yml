@@ -10,6 +10,14 @@ website:
         text: Giriş
       - href: about.qmd
         text: Hakkımızda
+      - href: scope.qmd
+        text: Proje Kapsamı
+      - href: method.qmd
+        text: Metodoloji
+      - href: analysis.qmd
+        text: Uygulama
+      - href: result.qmd
+        text: Sonuç
 
 format:
   html:
