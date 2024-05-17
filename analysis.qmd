@@ -13,7 +13,7 @@ Analiz kısmında, başlangıçta alt grupları ayrıntılı bir şekilde incele
 :::
 
 ```{=html}
-<iframe width="780" height="500" src="https://web.autocad.com/" title="AutoCAD"></iframe>
+<iframe width="780" height="500" src="https://sharecad.org/" title="AutoCAD"></iframe>
 ```
 ![](new_layout.jpg){fig-align="center"}
 
