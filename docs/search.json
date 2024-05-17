@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "TLB İş Makineleri Montaj Hattı Optimizasyonu",
-    "section": "",
-    "text": "Hacettepe Endüstri Mühendisliği bitirme projesi sayfamıza hoş geldiniz."
-  },
-  {
-    "objectID": "index.html#proje-özeti",
-    "href": "index.html#proje-özeti",
-    "title": "TLB İş Makineleri Montaj Hattı Optimizasyonu",
-    "section": "Proje Özeti",
-    "text": "Proje Özeti\n\nTürk Traktör’de kullanılan TLB iş makinelerinin montaj hattı şu anda en verimli şekilde çalışmıyor. Bu projenin temel hedefleri montaj hattının verimliliğini artırmak ve iyileştirmektir. Bunu hatların planlanması ve dengelenmesiyle gerçekleştirmeyi amaçlıyoruz. Bu sorunları çözmek için montaj sürecindeki sorunları sistematik olarak tanımlamaya, araştırmaya ve düzeltmeye çalışıyoruz.Buluşsal yöntemler, yalın üretim, simülasyon ve değer akışı haritalaması gibi çeşitli yaklaşımlarla bu sorunları çözmeye ve iyileştirmeler yapmaya çalışıyoruz. Bu yöntemlerin birleşimi, montaj hattının mevcut durumunun kapsamlı bir analizini kolaylaştıracak ve etkili çözümler geliştirmemize yardımcı olacaktır. Böylelikle hangi istasyonların iyileştirilmesi gerektiğini tespit edip simülasyon kullanarak yeni bir tasarım oluşturabiliyoruz."
-  },
-  {
-    "objectID": "company.html",
-    "href": "company.html",
-    "title": "Türk Traktör",
-    "section": "",
-    "text": "Türk otomotiv sektörünün ilk üretici kuruluşu olan TürkTraktör’ün kurumsal yapılanmasını, ülkemizde güvenin bir diğer ifadesi olan Koç Holding ve dünyanın en büyük traktör ve zirai ekipman üreticilerinden CNH Industrial ortaklığı oluşturmaktadır.\n\n\n\n\n\n\n\nTürkiye’nin üretim öncülerinden TürkTraktör, endüstriyel hayatına 1954 yılında başlamış ve yıllar içerisinde yükselen bir grafikle, bugün gelinen noktada başta Kuzey Amerika ve Avrupa olmak üzere şimdiye kadar 125 ülkeye yaptığı ihracatla ülkemizin önemli kuruluşlarından biri olmuştur.\n\n\nNew Holland, Case IH ve Steyr marka traktörleri aynı anda üretebilme özelliğine sahip bulunan TürkTraktör, New Holland TDD ile Case IH JX seri traktörlerin ve farklı özel serilerinin dünyadaki tek tasarım merkezi; Utility Light seri traktörlerin dünyadaki ana üretim merkezi ve 66 serisi transmisyonlar için dünyadaki tek mühendislik ve üretim merkezi konumundadır. 2013 yılında Case ve New Holland markalarının; mini yükleyici, kazıcı yükleyici, kompakt yükleyici, lastikli yükleyici, mini ekskavatör, paletli ekskavatör ve teleskopik yükleyici gibi ürünleriyle iş makineleri pazarına da giriş yapan TürkTraktör, kurumsal gelişimine yeni bir boyut eklemiştir.\n\n\n\n\n\n\n\nBizim odak noktamız ise inşaat makinelerinin montaj hattı, özellikle kazıcı yükleyici olacaktır. 2013 yılında, Türk Traktör Case ve New Holland markalarının Türkiye pazarındaki distribütörü olarak inşaat makineleri pazarına girdi. Mini yükleyiciler, kazıcı yükleyiciler, kompakt yükleyiciler, tekerlekli yükleyiciler, mini ekskavatörler, paletli ekskavatörler ve teleskopik yükleyiciler gibi ürünleri dağıtmaya başladılar. İnşaat makineleri alanında hızla başarı elde eden Türk Traktör, 2020 yılında bu sektördeki yatırımlarına yeni bir boyut ekledi. Şirket, Ankara Fabrikası’nda kazıcı yükleyici ürünlerinin yerli üretimine başlayarak inşaat makineleri sektöründeki yükselen başarısına katkıda bulunmuştur."
-  },
-  {
     "objectID": "scope.html",
     "href": "scope.html",
     "title": "Proje Kapsamı",
@@ -98,10 +77,66 @@
     "text": "Spagetti Diyagramı\n\nSpagetti diyagramı, süreç iyileştirme kapsamında insan, malzeme veya bilginin bir sistem veya alan içinde akışını haritalamak ve analiz etmek için kullanılan görsel bir temsildir. Diyagram, düzen tasarımında verimsizlikleri, darboğazları ve iyileştirme alanlarını belirlemeye yardımcı olur. Avantajları, bir sürecin içindeki gerçek hareketi net bir şekilde görsel olarak anlamayı sağlayarak verimliliği optimize etmek için bilinçli kararları kolaylaştırmasıdır."
   },
   {
+    "objectID": "company.html",
+    "href": "company.html",
+    "title": "Türk Traktör",
+    "section": "",
+    "text": "Türk otomotiv sektörünün ilk üretici kuruluşu olan TürkTraktör’ün kurumsal yapılanmasını, ülkemizde güvenin bir diğer ifadesi olan Koç Holding ve dünyanın en büyük traktör ve zirai ekipman üreticilerinden CNH Industrial ortaklığı oluşturmaktadır.\n\n\n\n\n\n\n\nTürkiye’nin üretim öncülerinden TürkTraktör, endüstriyel hayatına 1954 yılında başlamış ve yıllar içerisinde yükselen bir grafikle, bugün gelinen noktada başta Kuzey Amerika ve Avrupa olmak üzere şimdiye kadar 125 ülkeye yaptığı ihracatla ülkemizin önemli kuruluşlarından biri olmuştur.\n\n\nNew Holland, Case IH ve Steyr marka traktörleri aynı anda üretebilme özelliğine sahip bulunan TürkTraktör, New Holland TDD ile Case IH JX seri traktörlerin ve farklı özel serilerinin dünyadaki tek tasarım merkezi; Utility Light seri traktörlerin dünyadaki ana üretim merkezi ve 66 serisi transmisyonlar için dünyadaki tek mühendislik ve üretim merkezi konumundadır. 2013 yılında Case ve New Holland markalarının; mini yükleyici, kazıcı yükleyici, kompakt yükleyici, lastikli yükleyici, mini ekskavatör, paletli ekskavatör ve teleskopik yükleyici gibi ürünleriyle iş makineleri pazarına da giriş yapan TürkTraktör, kurumsal gelişimine yeni bir boyut eklemiştir.\n\n\n\n\n\n\n\nBizim odak noktamız ise inşaat makinelerinin montaj hattı, özellikle kazıcı yükleyici olacaktır. 2013 yılında, Türk Traktör Case ve New Holland markalarının Türkiye pazarındaki distribütörü olarak inşaat makineleri pazarına girdi. Mini yükleyiciler, kazıcı yükleyiciler, kompakt yükleyiciler, tekerlekli yükleyiciler, mini ekskavatörler, paletli ekskavatörler ve teleskopik yükleyiciler gibi ürünleri dağıtmaya başladılar. İnşaat makineleri alanında hızla başarı elde eden Türk Traktör, 2020 yılında bu sektördeki yatırımlarına yeni bir boyut ekledi. Şirket, Ankara Fabrikası’nda kazıcı yükleyici ürünlerinin yerli üretimine başlayarak inşaat makineleri sektöründeki yükselen başarısına katkıda bulunmuştur."
+  },
+  {
+    "objectID": "analysis.html",
+    "href": "analysis.html",
+    "title": "Uygulama",
+    "section": "",
+    "text": "Projemizin başlangıç aşamasında, TLB Montaj Hattı’nda ekibimiz operasyonel prosedürler ve hattın fiziksel düzeni hakkında kapsamlı bir araştırma gerçekleştirdi. Montaj hattının iş akışını, görev dağılımlarını ve alt gruplar arasındaki genel ilişkileri anladık. Hattın düzeninin doğru bir şekilde temsil edilmesini sağlamak amacıyla her alt grubun özelliklerini ayrıntılı bir şekilde ölçtük ve kaydettik. Bu ölçümleri AutoCAD yazılımını kullanarak, montaj hattının mimarisinin resmini veren kapsamlı ve ölçeklenebilir bir düzen haline getirdik.\nTaslak çizim süreci tamamlandıktan sonra, dikkatimizi her alt gruba dahil edilen ürünlerin yakından analizine çevirdik. Kaynak tahsisini en üst düzeye çıkarmak ve fazla stokları azaltmak amacıyla, TLB iş makineleri ürünlerinin kullanım detaylarına girdik. Her makine operasyonu için gereken ürün sayısını belirledik ve bu sayede envanter yönetimine yönelik bilgili bir yaklaşım sağladık. Her prosedürde kullanılan her ürünün kesin miktarını bilmek, amacımız olan ürünleri taşımak için kit arabaları kullanarak alan verimliliğini en üst düzeye çıkarmak için kritik öneme sahipti.\nAnaliz kısmında, başlangıçta alt grupları ayrıntılı bir şekilde inceledik. Her alt gruptaki operasyonlar ve montaj süreçlerini kısaca tartıştık. Montaj süreçlerine ek olarak, her alt grupta herhangi bir iş sağlığı ve güvenliği ihlali, WCM uygulamaları ve NVAA gözlemlerini belirledik. Ardından, her alt gruptaki her ürünün ayrıntılı bir analizini gerçekleştirdik ve ürün akışını tanımlayan bir bölümü düzene ekledik. Alt grupları ayrıntılı bir şekilde inceledikten sonra, montaj hattındaki operasyonları ve aralarındaki bağlantıları bir diyagramda kısaca sunduk."
+  },
+  {
+    "objectID": "analysis.html#autocad-layout-çizimi",
+    "href": "analysis.html#autocad-layout-çizimi",
+    "title": "Uygulama",
+    "section": "",
+    "text": "Projemizin başlangıç aşamasında, TLB Montaj Hattı’nda ekibimiz operasyonel prosedürler ve hattın fiziksel düzeni hakkında kapsamlı bir araştırma gerçekleştirdi. Montaj hattının iş akışını, görev dağılımlarını ve alt gruplar arasındaki genel ilişkileri anladık. Hattın düzeninin doğru bir şekilde temsil edilmesini sağlamak amacıyla her alt grubun özelliklerini ayrıntılı bir şekilde ölçtük ve kaydettik. Bu ölçümleri AutoCAD yazılımını kullanarak, montaj hattının mimarisinin resmini veren kapsamlı ve ölçeklenebilir bir düzen haline getirdik.\nTaslak çizim süreci tamamlandıktan sonra, dikkatimizi her alt gruba dahil edilen ürünlerin yakından analizine çevirdik. Kaynak tahsisini en üst düzeye çıkarmak ve fazla stokları azaltmak amacıyla, TLB iş makineleri ürünlerinin kullanım detaylarına girdik. Her makine operasyonu için gereken ürün sayısını belirledik ve bu sayede envanter yönetimine yönelik bilgili bir yaklaşım sağladık. Her prosedürde kullanılan her ürünün kesin miktarını bilmek, amacımız olan ürünleri taşımak için kit arabaları kullanarak alan verimliliğini en üst düzeye çıkarmak için kritik öneme sahipti.\nAnaliz kısmında, başlangıçta alt grupları ayrıntılı bir şekilde inceledik. Her alt gruptaki operasyonlar ve montaj süreçlerini kısaca tartıştık. Montaj süreçlerine ek olarak, her alt grupta herhangi bir iş sağlığı ve güvenliği ihlali, WCM uygulamaları ve NVAA gözlemlerini belirledik. Ardından, her alt gruptaki her ürünün ayrıntılı bir analizini gerçekleştirdik ve ürün akışını tanımlayan bir bölümü düzene ekledik. Alt grupları ayrıntılı bir şekilde inceledikten sonra, montaj hattındaki operasyonları ve aralarındaki bağlantıları bir diyagramda kısaca sunduk."
+  },
+  {
+    "objectID": "analysis.html#alt-grup-analizi",
+    "href": "analysis.html#alt-grup-analizi",
+    "title": "Uygulama",
+    "section": "Alt Grup Analizi",
+    "text": "Alt Grup Analizi\n\nValf ve Şase\n\n\nBüyük ve küçük valf alt gruplarının montaj işlemleri tamamlandıktan sonra, bu parçalar şasi alt grubuna getirilir ve şasiye monte edilir. Bu işlemlere ek olarak, ön ve arka aksların montajı da gerçekleştirilir.\nYorumlarımız:\n\n2WS arka aksların 4WS akslara benzer şekilde açık palet içinde gelmesi ve operatörün paketleri açması sırasında zaman ve işgücü kaybı yaşanması.\nŞasinin montaj alanına çekilmesi sırasında zaman ve işgücü kaybı.\nOperatörün hem dengeleyici hem de şasi alt gruplarında çalışmasına rağmen, alanlar arasında mesafe sorunu bulunması.\nBüyük valfin monte edilmiş formunun şasi alt montaj alanına getirilmesi sürecinde operatörün itmesi nedeniyle işgücü kaybı.\nMontaj çalışma istasyonu ile alet takımı arasındaki mesafe nedeniyle fazla adım atılması.\n4WS ve 2WS akslar arasında sürekli değişim nedeniyle bekleme süresi kaybı yaşanması.\n\n\n\n\nÖn Yükleyici\n\n\nBu alt grup, ön yükleyici montajından, lastik ve kabin montajından sorumludur. Montaj süreci, ağırlıklı olarak üst ve alt silindir pistonlarını içerir. Montaj çalışma masasında tamamlandığında, operatör bitmiş ürünleri ilgili mobil istasyona gönderir.\nYorumlarımız:\n\nÖn yükleyici montajında, yükleyici kaldırılıp montaj masasına taşındığında katma değeri olmayan zaman oluşuyor.\nPistonları ön yükleyici kit tedarik arabasına yerleştirerek çalışma alanından çıkarabiliriz, böylece katma değeri olmayan zamanı ortadan kaldırmış oluyoruz.\nÖn yükleyici alt grubunda kullanılan alet takımlarını montaj tezgahına daha yakın bir yere taşıyarak katma değeri olmayan zamanı ortadan kaldırabiliriz.\n\n\n\n\nHidrolik Yakıt Tankı\n\n\nHidrolik yakıt tankı ve kaput montaj aşamaları bu alt grupta gerçekleştirilir. Kit alanından gelen yarı mamul ürünün temel parçaları masada monte edildikten sonra montaj için ilgili bekleme alanına taşınır. Gerekli olduğunda montaj işlemi montaj hattında tamamlanır. Sınırlı alan nedeniyle de ön yükleyici parçaları kaput alt grubunda stoklanmaktadır.\nYorumlarımız:\n\nHidrolik ve yakıt tankı, yükseklik ayarlanabilir bir tezgah ile monte edilmelidir.\nHidrolik tankın alt cıvataları sıkılırken işlem vinç altında gerçekleştirilebilir.\nMontaj masasının üzerinde hava tabancasını asmak için belirlenmiş bir yer sağlanmalıdır.\nCıvataların ve aletlerin operatörün el seviyesinde olması için bir yükseltici yapılabilir.\n\n\n\n\nSoğutma Paketi\n\n\nSoğutma paketi bileşenlerinin montajı bu alt grupta gerçekleştirilir. Bu montaj için birçok farklı parça kullanılır. Çalışma masası 2’nin yakınında, montaj hattına gönderilmeyi bekleyen üç hazır soğutma paketi bulunmaktadır. Her TLB için bir soğutma paketi kullanılmaktadır (yani, günde bir tane). Alt grubun mevcut düzeni göz önüne alındığında, hazır birimlerin gerekenden daha fazla yer kapladığı söylenebilir.\n\n\n\nMotor Şanzıman\n\n\n\nArka Tabla\n\n\nBu alt grupta arka tabla montajı gerçekleştirilmektedir. Arka tabla kit bileşenleri ve arka tabla silindiri, pistonlarla birlikte masada monte edilir. Daha sonra, montaj makinesinde panel ve dönüştürücüyü pimlerle birleştirmek için besleme alanından döner kule kullanılır. Makineden çıktıktan sonra, arka tabla dengeleyici takılarak bekleme alanına gönderilir.\nYorumlarımız:\n\nArka tabla kit bileşenlerinin ve pistonlarının masadan uzakta olması verimlilik sorunlarına ve zaman kaybına neden olmaktadır.\nPistonlar için mühürlü karton paketlerin açılması, potansiyel olarak gecikmelere ve üretkenlikte aksamalara yol açmaktadır.\nPistonların kaldırılması ve döner kulenin montaj alanına getirilmesi sırasında İSG riski oluşmaktadır.\nBu alt gruba ait olmayan batarya ve motor gibi ürünlerin bu alanda beklemesi, karışıklığa ve verimsizliğe neden olmaktadır."
+  },
+  {
+    "objectID": "analysis.html#malzeme-analizi",
+    "href": "analysis.html#malzeme-analizi",
+    "title": "Uygulama",
+    "section": "Malzeme Analizi",
+    "text": "Malzeme Analizi\n\nGördüğümüz tüm ürünleri ayrıntılı olarak listelemedik çünkü her aşamada kullanılabilecek somun, vida gibi küçük bileşenler mevcut. Bu tür ürünleri ‘raf’ olarak belirledik. Ayrıca, her ürünün sağ üst köşesine yerleştirdiğimiz bölüm, ürünün nereden geldiğini ve nereye gittiğini gösteren akışı açıklamaktadır.\nÖrnekte görüldüğü gibi, ‘L’ ürününün lojistik tarafından sağlandığı belirtilmiştir. Ardından, montaj işleminin yeri açıklanmıştır. Kornaya ait örneğe bakıldığında, montaj işleminin ‘CM2’ olarak etiketlenen 2 numaralı çalışma istasyonunda gerçekleştiği gözlemlenmektedir. Sonundaki sayı, işlem başına ürün kullanım miktarını temsil etmektedir."
+  },
+  {
+    "objectID": "analysis.html#zaman-etüdü",
+    "href": "analysis.html#zaman-etüdü",
+    "title": "Uygulama",
+    "section": "Zaman Etüdü",
+    "text": "Zaman Etüdü\n\nZaman çalışmaları sırasında hem alt grupları hem de bireysel istasyonları inceledik. Ancak, operatörler tarafından gerçekleştirilen görevler oldukça zaman alıcıydı. Bu uzun görev süresi nedeniyle, çalışmanın sınırlı zaman çerçevesi içinde her görev tamamlaması için birden fazla ölçüm toplamak mümkün değildi. Bu nedenle, ARENA simülasyon yazılımında bir parametre olarak düzenli dağılım seçildi ve potansiyel varyasyonları keşfetmek için farklı varyans katsayısı (VK) değerleri kullanan üç farklı senaryo çalıştırdık. Bu senaryoların detaylı bir incelemesi bir sonraki bölümde sunulmaktadır.\n\n\n\n\nModel İçin Uygun Parametreyi Belirleme\n\nDüzgün Dağılım\n\nDüzgün dağılım, belirli bir aralık içindeki değerlerin eşit olasılıkla ortaya çıktığı bir olasılık dağılımıdır. Sonuçların eşit olasılıklı olduğu durumları modellemek ve verinin eksik olduğu durumlarda yaygın olarak kullanılır.\nDüzgün dağılımın başlıca faydalarından biri, modelleme sürecini, hesaplamaları ve analizleri basitleştirmesidir. Zaman kısıtlamaları, mevcut verinin eksikliği ve montaj hattındaki işlemlerin belirli bir aralık içinde eşit dağılıma sahip olabileceği varsayımı nedeniyle düzgün dağılımı kullanmaya karar verdik. Dağılım [a, b] şeklinde ifade edilir, burada “a” minimumu, “b” maksimumu temsil eder. Teorik ortalama ve standart sapma için formüller şunlardır:\n\n\n\n\n\n\n\n\nVaryans Katsayısı\n\nVaryans katsayısı, bir veri setinin ortalamasına göre göreceli değişkenliğini değerlendirmek için kullanılan istatistiksel bir ölçümdür. Modelimizde VK’nın kullanılmasının amacı, Arena’da düzgün dağılımın parametreleri olarak hizmet edecek değerleri bulmaktır. Bu prosedürün temel felsefesi, VK’yı değiştirerek farklı senaryolar oluşturmaktır.\nVK için formül:\n\n\n\n\n\n\n\nZaman çalışmalarımızdan elde edilen işlem sürelerini ortalama değerler olarak düşüneceğiz. Sonuç olarak, farklı senaryolar için CV değerleri de bilindiğinden, Arena modelinde kullanılmak üzere her istasyon ve alt grup için parametreler “a” ve “b” belirlenecektir."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "TLB İş Makineleri Montaj Hattı Optimizasyonu",
+    "section": "",
+    "text": "Hacettepe Endüstri Mühendisliği bitirme projesi sayfamıza hoş geldiniz."
+  },
+  {
     "objectID": "index.html#proje-takımımız",
     "href": "index.html#proje-takımımız",
     "title": "TLB İş Makineleri Montaj Hattı Optimizasyonu",
     "section": "Proje Takımımız",
     "text": "Proje Takımımız\nMert Bekir Kaplan Zümrüt Zeynep Özsoy Gülin Ünsal Arda Türkan"
+  },
+  {
+    "objectID": "index.html#proje-özeti",
+    "href": "index.html#proje-özeti",
+    "title": "TLB İş Makineleri Montaj Hattı Optimizasyonu",
+    "section": "Proje Özeti",
+    "text": "Proje Özeti\n\nTürk Traktör’de kullanılan TLB iş makinelerinin montaj hattı şu anda en verimli şekilde çalışmıyor. Bu projenin temel hedefleri montaj hattının verimliliğini artırmak ve iyileştirmektir. Bunu hatların planlanması ve dengelenmesiyle gerçekleştirmeyi amaçlıyoruz. Bu sorunları çözmek için montaj sürecindeki sorunları sistematik olarak tanımlamaya, araştırmaya ve düzeltmeye çalışıyoruz.Buluşsal yöntemler, yalın üretim, simülasyon ve değer akışı haritalaması gibi çeşitli yaklaşımlarla bu sorunları çözmeye ve iyileştirmeler yapmaya çalışıyoruz. Bu yöntemlerin birleşimi, montaj hattının mevcut durumunun kapsamlı bir analizini kolaylaştıracak ve etkili çözümler geliştirmemize yardımcı olacaktır. Böylelikle hangi istasyonların iyileştirilmesi gerektiğini tespit edip simülasyon kullanarak yeni bir tasarım oluşturabiliyoruz."
   }
 ]
