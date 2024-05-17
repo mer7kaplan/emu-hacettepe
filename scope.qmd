@@ -5,13 +5,13 @@ title: "Proje Kapsamı"
 ::: {style="text-align: justify;"}
 Proje, Türk Traktör'deki TLB iş makineleri montaj hattındaki verimsizliklere odaklanacak şekilde titizlikle tasarlanmıştır. Kapsamlı çerçevesi şu ana alanları içermektedir:
 
--   Montaj Hattı İyileştirmesi: İstasyon süresini en aza indirmek, kapasiteyi artırmak ve genel montaj sürecini iyileştirmek için Yalın Üretim ilkelerinin uygulanması.
+-   **Montaj Hattı İyileştirmesi:** İstasyon süresini en aza indirmek, kapasiteyi artırmak ve genel montaj sürecini iyileştirmek için Yalın Üretim ilkelerinin uygulanması.
 
--   Yerleşim Yeri Planlaması: Operasyonel verimliliği ve iş akışını maksimize etmek için montaj hattının stratejik olarak yeniden değerlendirilmesi ve yeniden tasarımı.
+-   **Yerleşim Yeri Planlaması:** Operasyonel verimliliği ve iş akışını maksimize etmek için montaj hattının stratejik olarak yeniden değerlendirilmesi ve yeniden tasarımı.
 
--   Hat Dengeleme: Montaj hattındaki farklı istasyonlar arasındaki iş yükünün hassas bir şekilde dengelenmesi, darboğazları azaltmak ve kaynak kullanımını optimize etmek.
+-   **Hat Dengeleme:** Montaj hattındaki farklı istasyonlar arasındaki iş yükünün hassas bir şekilde dengelenmesi, darboğazları azaltmak ve kaynak kullanımını optimize etmek.
 
--   Alt Grup Organizasyonu: Montaj hattına katkıda bulunan alt grupların düzenlenmesi ve optimize edilmesi, bileşenlerin kusursuz ve verimli bir şekilde akışını sağlamak.
+-   **Alt Grup Organizasyonu:** Montaj hattına katkıda bulunan alt grupların düzenlenmesi ve optimize edilmesi, bileşenlerin kusursuz ve verimli bir şekilde akışını sağlamak.
 
 ***Proje Kapsamı Dışında Kalanlar:***
 
@@ -50,7 +50,7 @@ Sonuç olarak, inşaat makineleri montaj hattındaki verimsizliklerin giderilmes
 -   **Maliyet Kısıtları:** Proje iyileştirmeleri ile ilgili maliyetler, önceden belirlenmiş bütçe kısıtlarına uymalıdır. Yatırım getirisi ve maliyet-performans oranlarının dikkatlice değerlendirilmesi, finansal sınırlamalara uyum sağlamak için gereklidir.
 :::
 
-## **Multidisipliner Yaklaşımlar ve Etkileşimler**
+## Multidisipliner Yaklaşımlar ve Etkileşimler
 
 ::: {style="text-align: justify;"}
 Montaj hattı dengeleme problemi üzerinde çalışan Endüstri Mühendisliği ekibinin bir üyesi olarak, farklı disiplinlerden ve geçmişlerden gelen çalışanlarla etkili işbirliği yapmak, kapsamlı ve başarılı bir çözüm için çok önemlidir. Montaj hattını çeşitli yönlerden iyileştirme amacıyla yapılan işbirliği, endüstri mühendisliği alanının ötesine geçer ve farklı geçmişlere ve disiplinlere sahip profesyonelleri içerir.
