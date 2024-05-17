@@ -9,8 +9,6 @@ website:
     left:
       - href: index.qmd
         text: Giriş
-      - href: about.qmd
-        text: Hakkımızda
       - href: company.qmd
         text: Türk Traktör
       - href: scope.qmd

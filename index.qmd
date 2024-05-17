@@ -1,8 +1,16 @@
 ---
-title: "EMU Hacettepe"
+styles:
+  styles.css
+format:
+  html:
+    title: 'TLB İş Makineleri Montaj Hattı Optimizasyonu'
 ---
 
 Hacettepe Endüstri Mühendisliği bitirme projesi sayfamıza hoş geldiniz.
+
+## Proje Takımımız
+
+[Mert Bekir Kaplan](https://emu-hacettepe-analytics.github.io/emu430-fall2023-mer7kaplan/){.download-button} [Zümrüt Zeynep Özsoy](https://emu-hacettepe-analytics.github.io/emu430-fall2023-zzeynepo/){.download-button} [Gülin Ünsal](https://emu-hacettepe-analytics.github.io/emu430-fall2023-gulinunsal/){.download-button} [Arda Türkan](https://emu-hacettepe-analytics.github.io/emu430-fall2023-ardaturkan/){.download-button}
 
 ## Proje Özeti
 
