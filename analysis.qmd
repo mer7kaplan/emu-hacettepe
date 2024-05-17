@@ -12,6 +12,9 @@ Taslak çizim süreci tamamlandıktan sonra, dikkatimizi her alt gruba dahil edi
 Analiz kısmında, başlangıçta alt grupları ayrıntılı bir şekilde inceledik. Her alt gruptaki operasyonlar ve montaj süreçlerini kısaca tartıştık. Montaj süreçlerine ek olarak, her alt grupta herhangi bir iş sağlığı ve güvenliği ihlali, WCM uygulamaları ve NVAA gözlemlerini belirledik. Ardından, her alt gruptaki her ürünün ayrıntılı bir analizini gerçekleştirdik ve ürün akışını tanımlayan bir bölümü düzene ekledik. Alt grupları ayrıntılı bir şekilde inceledikten sonra, montaj hattındaki operasyonları ve aralarındaki bağlantıları bir diyagramda kısaca sunduk.
 :::
 
+```{=html}
+<iframe width="780" height="500" src="https://en.dwgfastview.com/openDwg?type=175a0e83376a1994c1b8b72d92363f41a7370561bb2c01cb51670ce7e8dcca2c551266a07a66848b" title="AutoCAD"></iframe>
+```
 ![](new_layout.jpg){fig-align="center"}
 
 ## Alt Grup Analizi
