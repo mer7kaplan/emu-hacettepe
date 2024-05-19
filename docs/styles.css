@@ -1,4 +1,24 @@
 /* css styles */
+body {
+  background-color: #F8F8F8;
+}
+
+.navbar {
+  background-color: #E07A5F;
+}
+
+.navbar a {
+  color: #FFFFFF;
+}
+
+.navbar a:hover {
+  color: #2E0E02;
+}
+
+.navbar a:active {
+  color: #2E0E02;
+}
+
 .download-button {
   display: inline-block;
   padding: 5px 10px;
