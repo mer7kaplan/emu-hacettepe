@@ -47,7 +47,7 @@ Bu tablo, analizimiz sırasında alt gruplarda gözlemlenen zorlukların genel b
 ### Grafikler
 
 ::: {style="text-align: justify;"}
-Bu grafik, üç farklı senaryo boyunca her parça için zaman dağılımının gösteriyor. Bu grafikteki parça bir TLB'yi temsil eder. "Bekleme Zamanı", bir parçanın belirli bir işlem başlamadan önce sıraya alınarak geçirdiği süreyi temsil eder. Bu bekleme zamanı, bazı operatörlerin farklı alt gruplara ait montajlarda çalışması nedeniyle gerçekleşir. Dolayısıyla, bir parça geldiğinde belirli bir operatör uygun değilse, parça, operatör işlemi başlatana kadar sıraya alınır. Buna karşılık, "Katma Değer Zaman" metriği, bir parçanın bir montaj içinde geçirdiği gerçek işleme süresini temsil eder. Son olarak, "Toplam Zaman" basitçe bekleme süresi ve katma değer süresinin toplam süresidir. Grafikten anlaşıldığı üzere bir TLB'nin tamamlanması için geçen toplam süre yaklaşık olarak 39-40 saattir ve bu süre şirket tarafından sağlanan verilerle uyumludur.
+Bu grafik, üç farklı senaryo boyunca her parça için zaman dağılımının gösteriyor. Bu grafikteki parça bir TLB'yi temsil eder. "Bekleme Süresi", bir parçanın belirli bir işlem başlamadan önce sıraya alınarak geçirdiği süreyi temsil eder. Bu bekleme süresi, bazı operatörlerin farklı alt gruplara ait montajlarda çalışması nedeniyle gerçekleşir. Dolayısıyla, bir parça geldiğinde belirli bir operatör uygun değilse, parça, operatör işlemi başlatana kadar sıraya alınır. Buna karşılık, "Katma Değer Süre" metriği, bir parçanın bir montaj içinde geçirdiği gerçek işleme süresini temsil eder. Son olarak, "Toplam Süre" basitçe bekleme süresi ve katma değer süresinin toplam süresidir. Grafikten anlaşıldığı üzere bir TLB'nin tamamlanması için geçen toplam süre yaklaşık olarak 39-40 saattir ve bu süre şirket tarafından sağlanan verilerle uyumludur.
 :::
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -72,9 +72,9 @@ plot_total <- plot_ly(long_total_data,
                       type = 'bar', 
                       text = ~Value, 
                       textposition = 'auto') %>%
-  layout(title = "Toplam Zaman", 
+  layout(title = "Toplam Sure", 
          xaxis = list(title = ""), 
-         yaxis = list(title = "Zaman"), 
+         yaxis = list(title = "Sure"), 
          barmode = 'dodge',
          legend = list(title = list(text = 'Varyans Katsayısı')))
 
@@ -105,9 +105,9 @@ plot_process <- plot_ly(long_process_data,
                         type = 'bar', 
                         text = ~Value, 
                         textposition = 'auto') %>%
-  layout(title = "İşleme Zamanları", 
+  layout(title = "İşleme Sureleri", 
          xaxis = list(title = "", tickangle = 45), 
-         yaxis = list(title = "Zaman"), 
+         yaxis = list(title = "Sure"), 
          barmode = 'dodge',
          legend = list(title = list(text = 'Varyans Katsayısı')))
 
@@ -138,9 +138,9 @@ plot_wait <- plot_ly(long_wait_data,
                      type = 'bar', 
                      text = ~Value, 
                      textposition = 'auto') %>%
-  layout(title = "Bekleme Zamanları", 
+  layout(title = "Bekleme Sureleri", 
          xaxis = list(title = "", tickangle = 45), 
-         yaxis = list(title = "Zaman"), 
+         yaxis = list(title = "Sure"), 
          barmode = 'dodge',
          legend = list(title = list(text = 'Varyans Katsayısı')))
 
