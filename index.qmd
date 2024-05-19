@@ -6,9 +6,9 @@ format:
     title: 'TLB İş Makineleri Montaj Hattı Dengeleme Projesi'
 ---
 
-![](giphy5.gif){fig-align="center" width="240"}
+![](giphy6.gif){width="335"}
 
-Hacettepe Endüstri Mühendisliği bitirme projesi sayfamıza hoş geldiniz.
+![](giphy5.gif){width="335"}
 
 ![](1.jpg){fig-align="center"}
 

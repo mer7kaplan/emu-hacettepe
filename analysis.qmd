@@ -127,7 +127,7 @@ Zaman çalışmaları sırasında hem alt grupları hem de bireysel istasyonlar�
 
 ### Model İçin Uygun Parametreyi Belirleme
 
-#### **Düzgün Dağılım**
+#### **Düzgün Dağılım (Uniform Distribution)**
 
 ::: {style="text-align: justify;"}
 Düzgün dağılım, belirli bir aralık içindeki değerlerin eşit olasılıkla ortaya çıktığı bir olasılık dağılımıdır. Sonuçların eşit olasılıklı olduğu durumları modellemek ve verinin eksik olduğu durumlarda yaygın olarak kullanılır.
@@ -137,12 +137,12 @@ Düzgün dağılımın başlıca faydalarından biri, modelleme sürecini, hesap
 
 ![](images/clipboard-3594889700.png){fig-align="center"}
 
-#### **Varyans Katsayısı**
+#### **Varyans Katsayısı (Coefficient of Variation)**
 
 ::: {style="text-align: justify;"}
-Varyans katsayısı, bir veri setinin ortalamasına göre göreceli değişkenliğini değerlendirmek için kullanılan istatistiksel bir ölçümdür. Modelimizde VK'nın kullanılmasının amacı, Arena'da düzgün dağılımın parametreleri olarak hizmet edecek değerleri bulmaktır. Bu prosedürün temel felsefesi, VK'yı değiştirerek farklı senaryolar oluşturmaktır.
+Varyans katsayısı, bir veri setinin ortalamasına göre göreceli değişkenliğini değerlendirmek için kullanılan istatistiksel bir ölçümdür. Modelimizde CV'nin kullanılmasının amacı, Arena'da düzgün dağılımın parametreleri olarak hizmet edecek değerleri bulmaktır. Bu prosedürün temel felsefesi, CV'yi değiştirerek farklı senaryolar oluşturmaktır.
 
-VK için formül:
+CV için formül:
 :::
 
 ![](images/clipboard-2688817661.png){fig-align="center"}
