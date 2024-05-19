@@ -6,9 +6,7 @@ format:
     title: 'TLB İş Makineleri Montaj Hattı Dengeleme Projesi'
 ---
 
-![](giphy6.gif){width="335"}
-
-![](giphy5.gif){width="335"}
+![](giphy6.gif){width="335"} ![](giphy5.gif){width="335"}
 
 ![](1.jpg){fig-align="center"}
 
