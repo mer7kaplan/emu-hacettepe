@@ -2,6 +2,8 @@
 title: "Türk Traktör"
 ---
 
+![](giphy3.gif){width="360"}
+
 ::: {style="text-align: justify;"}
 Türk otomotiv sektörünün ilk üretici kuruluşu olan TürkTraktör’ün kurumsal yapılanmasını, ülkemizde güvenin bir diğer ifadesi olan Koç Holding ve dünyanın en büyük traktör ve zirai ekipman üreticilerinden CNH Industrial ortaklığı oluşturmaktadır.
 :::
