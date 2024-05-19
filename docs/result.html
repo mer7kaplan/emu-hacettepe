@@ -125,7 +125,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#israf-tablomuz" id="toc-israf-tablomuz" class="nav-link active" data-scroll-target="#israf-tablomuz">İsraf Tablomuz</a></li>
+  <li><a href="#arena-çıktısı" id="toc-arena-çıktısı" class="nav-link" data-scroll-target="#arena-çıktısı">Arena Çıktısı</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -149,8 +156,129 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div style="text-align: justify;">
+<p>Analizimiz, şirketin talebi üzerine TLB Montaj Hattı’nın düzenini ve işletme prosedürlerini inceleyerek başladı. Başlangıçta, detaylı alt grup değerlendirmelerine odaklandık, hem alt gruplar hem de montaj hattı için ölçümler aldık. Daha sonra, alt gruplar içindeki iş akışını inceledik ve önemli verimsizlikleri belirledik. Bu verimsizlikler, alan içinde aşırı stoktan kaynaklanıyor gibi görünüyordu ve bu da alanın optimize edilmemiş kullanımına yol açıyordu.</p>
+<p>Sonuç olarak, iş alanı geniş bir mesafeye yayıldı ve bu da geniş çaplı operatör hareketi gerektirdi ve verimsizliklere yol açtı. Alan verimliliğini artırmak için, lojistik alanını yeniden düzenlemeye ve lojistikten alt gruplara gerekli ürünleri taşımak için kit arabaları kullanmaya karar verdik. Ayrıca, bir operatörün iki uzak alt grupta aynı anda çalışması önemli bir israfta sonuçlandığını gözlemledik. Bu faktörleri göz önünde bulundurarak, alt gruplar arasındaki ilişkileri incelemek için bir faaliyet ilişki diyagramı oluşturduk ve bu, gelecekteki iyileştirmeler için değerli bilgiler sağladı.</p>
+<p>Montaj hattındaki zamanımız boyunca, operatörlerin görevleri eşit sürelerde gerçekleştirmediklerini fark ettik. Bunu ele almak için, operatörlere görevlerin optimal olarak nasıl dağıtılacağını belirlemek için bir simülasyon gerçekleştirdik. Temel hedefimiz çerçevesinde, düzen planlama ve hat dengeleme süreçlerine odaklandık. Alt gruplar arasındaki etkileşimi ve hareketli montaj hattını dikkate alarak, montaj hattımızın etkinliğini artırmak için iyileştirilmesi gereken istasyonları belirlemek için Arena simülasyon programını kullandık.</p>
+</div>
+<section id="israf-tablomuz" class="level2">
+<h2 class="anchored" data-anchor-id="israf-tablomuz">İsraf Tablomuz</h2>
+<ul>
+<li><strong>NVAA:</strong> Katma Değer Dışı Aktiviteler</li>
+<li><strong>WCM:</strong> Dünya Standardında Üretim</li>
+<li><strong>OHS:</strong> İş Şağlığı ve Güvenliği</li>
+</ul>
+<table class="table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 55%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Alt Grup</th>
+<th>Açıklama</th>
+<th>Tür</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Valf ve Şasi</td>
+<td>2WS arka dingillerinin 4WS dingillerine benzer açık paletlerle gelmesi ve operatörün paketleri açması, verimsizlik ve zaman kaybına neden olur.</td>
+<td>NVAA</td>
+</tr>
+<tr class="even">
+<td>Valf ve Şasi</td>
+<td>Operatörlerin şasiyi montaj alanına çekmesi ve bu durum zaman kaybına ve işgücünün verimsiz kullanımına neden olur.</td>
+<td>NVAA</td>
+</tr>
+<tr class="odd">
+<td>Valf ve Şasi</td>
+<td>Stabilizatör ve şasi alt gruplarında çalışan operatörün aynı olmasına rağmen ilgili alt grupların birbirine yakın olmaması verimliliği azaltabilir.</td>
+<td>NVAA</td>
+</tr>
+<tr class="even">
+<td>Valf ve Şasi</td>
+<td>Büyük valfin monte edilmiş halini şasiye daha yakın getirme sürecinde uygun ekipman kullanılmaması alt montaj alanında zaman kaybına neden olur.</td>
+<td>NVAA</td>
+</tr>
+<tr class="odd">
+<td>Valf ve Şasi</td>
+<td>Montaj iş istasyonu ile araç takımı arasındaki mesafe nedeniyle fazla adım atılması.</td>
+<td>NVAA</td>
+</tr>
+<tr class="even">
+<td>Valf ve Şasi</td>
+<td>4WS ve 2WS dingilleri arasındaki sürekli değişiklik nedeniyle bekleme süresi kaybı oluşur.</td>
+<td>NVAA</td>
+</tr>
+<tr class="odd">
+<td>Ön Yükleyici</td>
+<td>Ön yükleyicinin montajı sırasında ön yükleyicinin kaldırılması ve montaj masasına taşınması sırasında katma değer dışı zaman kaybı oluşur.</td>
+<td>NVAA</td>
+</tr>
+<tr class="even">
+<td>Ön Yükleyici</td>
+<td>Pistonları çalışma alanından kaldırarak, ön yükleyici kit tedarik arabasına yerleştirme ile katma değer dışı zaman kaybı ortadan kaldırılır.</td>
+<td>NVAA</td>
+</tr>
+<tr class="odd">
+<td>Ön Yükleyici</td>
+<td>Ön yükleyici alt grubunda kullanılan araç takımlarını montaj bankosuna yakınlaştırarak, katma değer dışı zaman kaybı ortadan kaldırılır.</td>
+<td>NVAA</td>
+</tr>
+<tr class="even">
+<td>Hidrolik-Yakıt</td>
+<td>Hidrolik ve yakıt tankı yükseklik ayarlı banko ile monte edilmelidir.</td>
+<td>WCM</td>
+</tr>
+<tr class="odd">
+<td>Hidrolik-Yakıt</td>
+<td>Hidrolik tankının alt vidalarını sıkarken, işlem vinç altında gerçekleştirilir.</td>
+<td>OHS</td>
+</tr>
+<tr class="even">
+<td>Hidrolik-Yakıt</td>
+<td>Montaj masasına hava tabancasının asılacağı belirli bir konum sağlanmalıdır.</td>
+<td>WCM</td>
+</tr>
+<tr class="odd">
+<td>Hidrolik-Yakıt</td>
+<td>Vidaların ve araç takımlarının operatörün el seviyesinde olacağı bir yükseltici yapılmalıdır.</td>
+<td>WCM</td>
+</tr>
+<tr class="even">
+<td>Arka Tabla</td>
+<td>Pistonları kaldırırken ve dönme kulesini montaj alanına getirirken potansiyel bir risk oluşur.</td>
+<td>OHS</td>
+</tr>
+<tr class="odd">
+<td>Arka Tabla</td>
+<td>Arka masa kit bileşenlerinin ve pistonlarının masadan uzak olması verimliliği azaltır ve zaman kaybına neden olur.</td>
+<td>NVAA</td>
+</tr>
+<tr class="even">
+<td>Arka Tabla</td>
+<td>Mühürlü karton paketlerinin açılması pistonlar için gecikmelere ve üretkenlikte aksaklıklara neden olabilir.</td>
+<td>NVAA</td>
+</tr>
+<tr class="odd">
+<td>Arka Tabla</td>
+<td>Bu alanda bekleyen batarya ve motor gibi ürünlerin, bu alt gruba ait olmaması, karmaşaya ve verimsizliğe neden olur.</td>
+<td>NVAA</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: justify;">
+<p>Bu tablo, analizimiz sırasında alt gruplarda gözlemlenen zorlukların genel bir özetini sunmaktadır; bunlar, yalın üretim prensipleriyle uyumlu olmayan durumları içermektedir. Tabloda vurgulanan temel sorunlar arasında zaman ve işgücünün etkisiz kullanımı, Katma Değer Dışı Aktiviteler (NVAA) ile ilişkili koşulların varlığı ve iş sağlığı ve güvenliğine yönelik risk oluşturan durumların belirlenmesi bulunmaktadır. Bu sorunları gelecekteki çalışmalarımızda ele almak, optimal verimliliği artırmak, katma değer dışı faaliyetleri ortadan kaldırmak ve iş sağlığı ve güvenliğini öncelikli kılan bir iş yeri ortamı sağlamak için anahtardır.</p>
+</div>
+</section>
+<section id="arena-çıktısı" class="level2">
+<h2 class="anchored" data-anchor-id="arena-çıktısı">Arena Çıktısı</h2>
+<p><img src="images/clipboard-3224613032.png" class="img-fluid"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

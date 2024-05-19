@@ -12,12 +12,12 @@ format:
 
 ## Proje Takımımız
 
-[Zümrüt Zeynep Özsoy](https://emu-hacettepe-analytics.github.io/emu430-fall2023-zzeynepo/){.download-button} [Mert Bekir Kaplan](https://emu-hacettepe-analytics.github.io/emu430-fall2023-mer7kaplan/){.download-button} [Gülin Ünsal](https://emu-hacettepe-analytics.github.io/emu430-fall2023-gulinunsal/){.download-button} [Arda Türkan](https://emu-hacettepe-analytics.github.io/emu430-fall2023-ardaturkan/){.download-button}
+[Zümrüt Zeynep Özsoy](https://www.linkedin.com/in/z%C3%BCmr%C3%BCt-zeynep-%C3%B6zsoy-6b2481206/){.download-button} [Mert Bekir Kaplan](https://www.linkedin.com/in/mertbekir-kaplan/){.download-button} [Gülin Ünsal](https://www.linkedin.com/in/g%C3%BClin-%C3%BCnsal-8418581b8/){.download-button} [Arda Türkan](https://www.linkedin.com/in/ardaturkan/){.download-button}
 
 ![](2.jpg){fig-align="center"}
 
 ## Proje Özeti
 
 ::: {style="text-align: justify;"}
-Türk Traktör'de kullanılan TLB iş makinelerinin montaj hattı şu anda en verimli şekilde çalışmıyor. Bu projenin temel hedefleri montaj hattının verimliliğini artırmak ve iyileştirmektir. Bunu hatların planlanması ve dengelenmesiyle gerçekleştirmeyi amaçlıyoruz. Bu sorunları çözmek için montaj sürecindeki sorunları sistematik olarak tanımlamaya, araştırmaya ve düzeltmeye çalışıyoruz.Buluşsal yöntemler, yalın üretim, simülasyon ve değer akışı haritalaması gibi çeşitli yaklaşımlarla bu sorunları çözmeye ve iyileştirmeler yapmaya çalışıyoruz. Bu yöntemlerin birleşimi, montaj hattının mevcut durumunun kapsamlı bir analizini kolaylaştıracak ve etkili çözümler geliştirmemize yardımcı olacaktır. Böylelikle hangi istasyonların iyileştirilmesi gerektiğini tespit edip simülasyon kullanarak yeni bir tasarım oluşturabiliyoruz.
+Türk Traktör'deki TLB iş makinelerinin montaj hattı şu anda en verimli şekilde çalışmıyor. Bu doğrulta mevcut durumu düzeltmek için projemizin ana hedefleri, montaj hattının verimliliğini artırmak ve iyileştirmektir. Bu amaçla, hatların planlanması ve dengelenmesi üzerinde çalışıyoruz. Sorunları çözmek için, montaj sürecindeki problemleri sistematik bir şekilde tanımlamaya, araştırmaya ve düzeltmeye odaklanıyoruz. Sezgisel yöntemler, yalın üretim, simülasyon ve değer akışı haritalaması gibi çeşitli yaklaşımları kullanarak bu sorunları çözme ve iyileştirmeler yapma gayretindeyiz. Bu yöntemlerin birleşimi, montaj hattının mevcut durumunu kapsamlı bir şekilde analiz etmemizi sağlayacak ve etkili çözümler geliştirmemize yardımcı olacaktır. Bu sayede hangi istasyonların iyileştirilmesi gerektiğini belirleyebilir ve yeni bir tasarım oluşturmak için simülasyonları kullanabiliriz.
 :::
