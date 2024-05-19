@@ -15,7 +15,7 @@ Analiz kısmında, başlangıçta alt grupları ayrıntılı bir şekilde incele
 ```{=html}
 <iframe width="780" height="500" src="https://sharecad.org/" title="AutoCAD"></iframe>
 ```
-![](new_layout.jpg){fig-align="center"}
+![TLB Montaj Hattı Yerleşim Yeri](new_layout.jpg){fig-align="center"}
 
 ## Alt Grup Analizi
 
@@ -115,15 +115,75 @@ Gördüğümüz tüm ürünleri ayrıntılı olarak listelemedik çünkü her a�
 
 ![](images/clipboard-3027410032.png)
 
+## Spagetti Diyagramları
+
+::: {style="text-align: justify;"}
+VisTable uygulamasını kullanarak, alt grupların yerleşimlerini göstermek için tesis düzenine spaghetti diyagramları yansıttık. Bu uygulamada, malzemelerin renkleri yeşilden kırmızıya geçerek, sırasıyla en azdan en çok kullanıma doğru bir gösterge sunar. Okların kalınlığı ve renkleri, en sık ziyaret edilen alanları belirtir. Uygulama, düzen değişikliklerimizin performans ve alan kullanımına olan yüzde etkisini doğru bir şekilde yansıtan ölçekli bir temsil sağlar.
+:::
+
+### Küçük Valf & Şase
+
+::: {style="text-align: justify;"}
+Aşağıdaki görselde, montaj küçük valf ve şasi alt gruplarını içermektedir. Sağlanan şekilden de görüldüğü üzere, bu alt gruplar için 3 operatör mevcuttur. En yüksek ziyaret ve kullanım oranlarına sahip alanlar, ön ve arka akslar için montaj bölümü, şasi montaj alanı ve şasi montajı için kullanılan raflardır. Bir diğer gözlem ise, yetersiz lojistik nedeniyle operatörlerin lojistik alanını sık sık ziyaret etmek zorunda kalmalarıdır.
+:::
+
+![](4.jpg){fig-align="center"}
+
+### Büyük Valf
+
+::: {style="text-align: justify;"}
+Bu alt grupta, aynı operatörün işlemleri ardışık bir şekilde yürüttüğünü gözlemliyoruz; başlangıçta Büyük Valf Montaj Aracı 1'i kullanarak işlem yapıyor ve ardından bitmiş ürünü ek görevler için Büyük Valf Montaj Aracı 2'ye transfer ediyor. Bu iş akışı, Büyük Valf Montaj Aracı 1'in sınırlı dönebilme kabiliyeti nedeniyle biraz kısıtlanmış olup, değişiklik veya optimizasyon yapma esnekliğimizi azaltmaktadır. Ayrıca, Büyük Valf Montaj Aracı 2'de gerçekleştirilen görevlerin operasyonel verimliliği için düzenli ve erişilebilir bir depolama ihtiyacı belirledik. Bunu çözmek için, bu işlemler için gerekli malzemeleri barındıracak şekilde tasarlanmış bir kit arabası kullanmayı düşündük.
+:::
+
+![](3.jpg){fig-align="center"}
+
+### Ön Yükleyici
+
+Bu alt grup için, en sık kullanılan bölümlerin iş istasyonu arabası ve çalışma tezgahı olduğunu belirledik. Operatörler, raflardan aldıkları ürünlerle bu alanlarda işlemler yapmaktadır.
+
+![](5.jpg){fig-align="center"}
+
+### Hidrolik Yakıt Tankı
+
+::: {style="text-align: justify;"}
+Bu alt grupta, operatörün verimliliğinin lojistik tedarik eksiklikleri nedeniyle azaldığını gözlemledik. Ayrıca, tüm hat boyunca yaygın olarak kullanılan araç/gereçler için operatörün işlemi sürdürebilmesi için montaj alanını iki kez ziyaret etmesi gerektiği belirtilmelidir.
+:::
+
+![](6.jpg){fig-align="center"}
+
+### Soğutma Paketi
+
+::: {style="text-align: justify;"}
+Bu alanda soğutma paketi alt grubunu inceledik. Bu alt gruba bir operatör atanmıştır. Okların kalınlığı ve renkleri, en sık ziyaret edilen alanların raflar ile çalışma masası arasında olduğunu göstermektedir.
+:::
+
+![](7.jpg){fig-align="center"}
+
+### Motor & Şanzıman
+
+::: {style="text-align: justify;"}
+Bu alt gruptaki birleştirme istasyonu pozisyonunda sabitlenmiştir, bu da değişiklik veya yeniden düzenlemeleri uygulama esnekliğimizi kısıtlamaktadır. Bu kısıtlama, bu özel alanın iş akışını ve verimliliğini optimize etme konusunda zorluklar ortaya koymuştur. Çabalarımıza rağmen, bu segmentte işletme etkinliğini artırmak için daha verimli bir çözüm henüz belirleyemedik.
+:::
+
+![](8.jpg){fig-align="center"}
+
+### Arka Tabla
+
+::: {style="text-align: justify;"}
+Sağlanan görüntüde, bir operatör tarafından yönetilen arka masa alt grubunu gözlemledik. Görüldüğü gibi, arka panel alt grubundaki en sık ziyaret edilen ve en yüksek kullanım alanları arasında bir çalışma tezgahı, raflar ve piston bulunmaktadır. Ancak, bu alt grupla ilgili olmayan malzemelerin bu alanda depolanması, alanın verimsiz kullanımına ve üretkenliğin azalmasına neden olabilir. Bu nedenle, bu alt grup içindeki kaynakların tahsisini optimize etmek, üretkenliği ve düzeni en üst düzeye çıkarmak için esastır. Bu alt grupta, makine, sütun ve çalışma tezgahının konumları sabit olduğu için değiştirilemez.
+:::
+
+![](9.jpg){fig-align="center"}
+
 ## Zaman Etüdü
 
 ::: {style="text-align: justify;"}
 Zaman çalışmaları sırasında hem alt grupları hem de bireysel istasyonları inceledik. Ancak, operatörler tarafından gerçekleştirilen görevler oldukça zaman alıcıydı. Bu uzun görev süresi nedeniyle, çalışmanın sınırlı zaman çerçevesi içinde her görev tamamlaması için birden fazla ölçüm toplamak mümkün değildi. Bu nedenle, ARENA simülasyon yazılımında bir parametre olarak düzenli dağılım seçildi ve potansiyel varyasyonları keşfetmek için farklı varyans katsayısı (VK) değerleri kullanan üç farklı senaryo çalıştırdık. Bu senaryoların detaylı bir incelemesi bir sonraki bölümde sunulmaktadır.
 :::
 
-![](images/clipboard-3198138469.png)
+![Alt Gruplar Arasındaki Süre Dağılımları](images/clipboard-3198138469.png)
 
-![](images/clipboard-3154987476.png)
+![Montaj Hattı İstasyonları Arasındaki Süre Dağılımları](images/clipboard-3154987476.png)
 
 ### Model İçin Uygun Parametreyi Belirleme
 
@@ -150,3 +210,17 @@ CV için formül:
 ::: {style="text-align: justify;"}
 Zaman çalışmalarımızdan elde edilen işlem sürelerini ortalama değerler olarak düşüneceğiz. Sonuç olarak, farklı senaryolar için CV değerleri de bilindiğinden, Arena modelinde kullanılmak üzere her istasyon ve alt grup için parametreler "a" ve "b" belirlenecektir.
 :::
+
+#### **Python Çıktısı**
+
+![3 Farklı Varyans Değeri 3 Farklı Senaryo Analizi](images/clipboard-2346992000.png){fig-align="center"}
+
+## Arena Simülasyon
+
+::: {style="text-align: justify;"}
+Mevcut sistemi analiz ettik ve iş akışını görselleştirmek için Arena'da ayrıntılı bir model oluşturduk. Süreç şu şekilde işlemektedir: Önce alt montajlar yapılır ve ardından ana gövde ile birleştirilmeye hazır olana kadar belirlenen alanlarda beklerler. Ana gövde daha sonra TLB montaj sürecinin başladığı ilk istasyona taşınır. Süreci daha iyi anlayabilmeniz için simülasyon modüllerinin genel bir özetini sunacağız.
+:::
+
+![Arena Simülasyon Modelimiz](images/clipboard-234564736.png){fig-align="center"}
+
+{{< video simulation.mp4 >}}
