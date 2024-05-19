@@ -2,7 +2,7 @@
 title: "Proje Kapsamı"
 ---
 
-![](giphy4.gif){width="335"} ![](giphy2.gif){width="335"}
+![](tlb.png)
 
 ::: {style="text-align: justify;"}
 Proje, Türk Traktör'deki TLB iş makineleri montaj hattındaki verimsizliklere odaklanacak şekilde titizlikle tasarlanmıştır. Kapsamlı çerçevesi şu ana alanları içermektedir:

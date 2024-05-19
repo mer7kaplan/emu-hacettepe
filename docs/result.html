@@ -67,6 +67,22 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="site_libs/plotly-binding-4.10.3/plotly.js"></script>
+
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+
+<script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
+
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+
 
 
 <link rel="stylesheet" href="styles.css">
@@ -130,7 +146,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#israf-tablomuz" id="toc-israf-tablomuz" class="nav-link active" data-scroll-target="#israf-tablomuz">İsraf Tablomuz</a></li>
-  <li><a href="#arena-çıktısı" id="toc-arena-çıktısı" class="nav-link" data-scroll-target="#arena-çıktısı">Arena Çıktısı</a></li>
+  <li><a href="#arena-çıktısı" id="toc-arena-çıktısı" class="nav-link" data-scroll-target="#arena-çıktısı">Arena Çıktısı</a>
+  <ul class="collapse">
+  <li><a href="#grafikler" id="toc-grafikler" class="nav-link" data-scroll-target="#grafikler">Grafikler</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -170,9 +189,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <table class="table">
 <colgroup>
-<col style="width: 22%">
-<col style="width: 55%">
-<col style="width: 22%">
+<col style="width: 26%">
+<col style="width: 47%">
+<col style="width: 26%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -276,8 +295,38 @@ ul.task-list li input[type="checkbox"] {
 <section id="arena-çıktısı" class="level2">
 <h2 class="anchored" data-anchor-id="arena-çıktısı">Arena Çıktısı</h2>
 <p><img src="images/clipboard-3224613032.png" class="img-fluid"></p>
+<section id="grafikler" class="level3">
+<h3 class="anchored" data-anchor-id="grafikler">Grafikler</h3>
+<div style="text-align: justify;">
+<p>Bu grafik, üç farklı senaryo boyunca her parça için zaman dağılımının gösteriyor. Bu grafikteki parça bir TLB’yi temsil eder. “Bekleme Zamanı”, bir parçanın belirli bir işlem başlamadan önce sıraya alınarak geçirdiği süreyi temsil eder. Bu bekleme zamanı, bazı operatörlerin farklı alt gruplara ait montajlarda çalışması nedeniyle gerçekleşir. Dolayısıyla, bir parça geldiğinde belirli bir operatör uygun değilse, parça, operatör işlemi başlatana kadar sıraya alınır. Buna karşılık, “Katma Değer Zaman” metriği, bir parçanın bir montaj içinde geçirdiği gerçek işleme süresini temsil eder. Son olarak, “Toplam Zaman” basitçe bekleme süresi ve katma değer süresinin toplam süresidir. Grafikten anlaşıldığı üzere bir TLB’nin tamamlanması için geçen toplam süre yaklaşık olarak 39-40 saattir ve bu süre şirket tarafından sağlanan verilerle uyumludur.</p>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-258191e688555ca9cac0" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-258191e688555ca9cac0">{"x":{"visdat":{"21a816c426ee":["function () ","plotlyVisDat"]},"cur_data":"21a816c426ee","attrs":{"21a816c426ee":{"x":{},"y":{},"text":{},"textposition":"auto","color":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Toplam Zaman","xaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Bekleme Zamanı","Katma Değer Zaman","Toplam Zaman"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Zaman"},"barmode":"dodge","legend":{"title":{"text":"Varyans Katsayısı"}},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Toplam Zaman","Katma Değer Zaman","Bekleme Zamanı"],"y":[2305.9899999999998,2234.6500000000001,71.340000000000003],"text":[2305.9899999999998,2234.6500000000001,71.340000000000003],"textposition":["auto","auto","auto"],"type":"bar","name":"0.10","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Toplam Zaman","Katma Değer Zaman","Bekleme Zamanı"],"y":[2323.9699999999998,2254.46,69.510000000000005],"text":[2323.9699999999998,2254.46,69.510000000000005],"textposition":["auto","auto","auto"],"type":"bar","name":"0.15","marker":{"color":"rgba(252,141,98,1)","line":{"color":"rgba(252,141,98,1)"}},"textfont":{"color":"rgba(252,141,98,1)"},"error_y":{"color":"rgba(252,141,98,1)"},"error_x":{"color":"rgba(252,141,98,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Toplam Zaman","Katma Değer Zaman","Bekleme Zamanı"],"y":[2324.1100000000001,2256.4299999999998,67.680000000000007],"text":[2324.1100000000001,2256.4299999999998,67.680000000000007],"textposition":["auto","auto","auto"],"type":"bar","name":"0.20","marker":{"color":"rgba(141,160,203,1)","line":{"color":"rgba(141,160,203,1)"}},"textfont":{"color":"rgba(141,160,203,1)"},"error_y":{"color":"rgba(141,160,203,1)"},"error_x":{"color":"rgba(141,160,203,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div style="text-align: justify;">
+<p>Bu grafik, her alt grup ve istasyonun işlem sürelerini, yani her parça için işlem modüllerinde geçirilen toplam süreyi göstermektedir. Burada, backhoe alt grubunun en uzun işlem sürelerine sahip olduğunu, arka tabla alt grubunun ise en kısa süreye sahip olduğunu açıkça görebiliyoruz. Backhoe alt grubu için, parçaların gerektiği anda doğrudan çalışma istasyonuna teslim edildiği bir tek parça akış sistemi uygulayabiliriz; bu sayede hareket ve bekleme sürelerini en aza indirir ve insan becerisi gerektirmeyen tekrarlayan görevleri otomatikleştirerek operatörlerin daha karmaşık görevler için serbest kalmasını sağlayabiliriz.</p>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-ab9f2f1d51f484fb71af" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-ab9f2f1d51f484fb71af">{"x":{"visdat":{"21a822651678":["function () ","plotlyVisDat"]},"cur_data":"21a822651678","attrs":{"21a822651678":{"x":{},"y":{},"text":{},"textposition":"auto","color":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"İşleme Zamanları","xaxis":{"domain":[0,1],"automargin":true,"title":"","tickangle":45,"type":"category","categoryorder":"array","categoryarray":["Ana Gövde 1","Ana Gövde 2","Ana Gövde 3","Ana Gövde 4","Ana Gövde 5","Ana Gövde 6","Arka Tabla","Büyük Valf","Hidrolik Yakıt Tankı","Kabin Tekelerlek Backhoe","Küçük Valf","Motor Şanzıman","Ön Yükleyici","Soğutma Paketi","Şasi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Zaman"},"barmode":"dodge","legend":{"title":{"text":"Varyans Katsayısı"}},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Büyük Valf","Şasi","Küçük Valf","Arka Tabla","Motor Şanzıman","Soğutma Paketi","Hidrolik Yakıt Tankı","Ön Yükleyici","Kabin Tekelerlek Backhoe","Ana Gövde 1","Ana Gövde 2","Ana Gövde 3","Ana Gövde 4","Ana Gövde 5","Ana Gövde 6"],"y":[139.72999999999999,142.47,139.19999999999999,38.969999999999999,126.97,160.53,168.88,77.239999999999995,456.82999999999998,92.909999999999997,184.12,120.45,68.030000000000001,105.26000000000001,284.39999999999998],"text":[139.72999999999999,142.47,139.19999999999999,38.969999999999999,126.97,160.53,168.88,77.239999999999995,456.82999999999998,92.909999999999997,184.12,120.45,68.030000000000001,105.26000000000001,284.39999999999998],"textposition":["auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto"],"type":"bar","name":"0.10","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Büyük Valf","Şasi","Küçük Valf","Arka Tabla","Motor Şanzıman","Soğutma Paketi","Hidrolik Yakıt Tankı","Ön Yükleyici","Kabin Tekelerlek Backhoe","Ana Gövde 1","Ana Gövde 2","Ana Gövde 3","Ana Gövde 4","Ana Gövde 5","Ana Gövde 6"],"y":[134.59999999999999,140.09999999999999,141.13,37.799999999999997,124.37,158.34,177.31999999999999,70.969999999999999,474.99000000000001,89.689999999999998,184.68000000000001,122.17,68.459999999999994,109.62,289.72000000000003],"text":[134.59999999999999,140.09999999999999,141.13,37.799999999999997,124.37,158.34,177.31999999999999,70.969999999999999,474.99000000000001,89.689999999999998,184.68000000000001,122.17,68.459999999999994,109.62,289.72000000000003],"textposition":["auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto"],"type":"bar","name":"0.15","marker":{"color":"rgba(252,141,98,1)","line":{"color":"rgba(252,141,98,1)"}},"textfont":{"color":"rgba(252,141,98,1)"},"error_y":{"color":"rgba(252,141,98,1)"},"error_x":{"color":"rgba(252,141,98,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Büyük Valf","Şasi","Küçük Valf","Arka Tabla","Motor Şanzıman","Soğutma Paketi","Hidrolik Yakıt Tankı","Ön Yükleyici","Kabin Tekelerlek Backhoe","Ana Gövde 1","Ana Gövde 2","Ana Gövde 3","Ana Gövde 4","Ana Gövde 5","Ana Gövde 6"],"y":[129.47,137.93000000000001,142.38999999999999,36.93,110.83,156.09999999999999,186.41999999999999,64.700000000000003,493.16000000000003,78.920000000000002,185.21000000000001,124.06999999999999,68.969999999999999,113.98,295.02999999999997],"text":[129.47,137.93000000000001,142.38999999999999,36.93,110.83,156.09999999999999,186.41999999999999,64.700000000000003,493.16000000000003,78.920000000000002,185.21000000000001,124.06999999999999,68.969999999999999,113.98,295.02999999999997],"textposition":["auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto"],"type":"bar","name":"0.20","marker":{"color":"rgba(141,160,203,1)","line":{"color":"rgba(141,160,203,1)"}},"textfont":{"color":"rgba(141,160,203,1)"},"error_y":{"color":"rgba(141,160,203,1)"},"error_x":{"color":"rgba(141,160,203,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<div style="text-align: justify;">
+<p>Bu grafik, her istasyonda farklı alt gruplar için beklemeye ilişkin süre dağılımlarını göstermektedir. Ön Yükleyici alt grubunun en uzun kuyruklara sahip olduğunu, bu durumun önündeki istasyonda bir potansiyel darboğaza işaret ettiğini göstermektedir. Ancak gecikmenin nedenini belirlemek için daha detaylı bir analiz gerekmektedir. Bu istasyonun süreçlerini düzenlemek, verimliliği önemli ölçüde artırabilir. Buna karşılık, 4. İstasyon’da Ana Gövde 4 işleminin en kısa bekleme sürelerini sergilediği görülmektedir.</p>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-ae7ebe474e5a79843677" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-ae7ebe474e5a79843677">{"x":{"visdat":{"21a87db3f99":["function () ","plotlyVisDat"]},"cur_data":"21a87db3f99","attrs":{"21a87db3f99":{"x":{},"y":{},"text":{},"textposition":"auto","color":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Bekleme Zamanları","xaxis":{"domain":[0,1],"automargin":true,"title":"","tickangle":45,"type":"category","categoryorder":"array","categoryarray":["Ana Gövde 2","Ana Gövde 3","Ana Gövde 4","Ana Gövde 5","Ana Gövde 6","Arka Tabla","Arka Tabla & Motor","Büyük Valf","Hidrolik Yakıt Tankı","Kabin Tekerlek Backhoe","Küçük Valf","Motor Şanzıman","Ön Yükleyici","Soğutma Paketi","Soğutma Paketi Proses","Şasi"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Zaman"},"barmode":"dodge","legend":{"title":{"text":"Varyans Katsayısı"}},"hovermode":"closest","showlegend":true},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Büyük Valf","Şasi","Küçük Valf","Arka Tabla","Motor Şanzıman","Arka Tabla & Motor","Soğutma Paketi","Soğutma Paketi Proses","Hidrolik Yakıt Tankı","Ön Yükleyici","Kabin Tekerlek Backhoe","Ana Gövde 2","Ana Gövde 3","Ana Gövde 4","Ana Gövde 5","Ana Gövde 6"],"y":[11.449999999999999,8.8499999999999996,12.390000000000001,96.290000000000006,49.310000000000002,19.98,114.92,71.340000000000003,205.05000000000001,281.33999999999997,128.97,11.82,16.460000000000001,11.69,29.719999999999999,100.19],"text":[11.449999999999999,8.8499999999999996,12.390000000000001,96.290000000000006,49.310000000000002,19.98,114.92,71.340000000000003,205.05000000000001,281.33999999999997,128.97,11.82,16.460000000000001,11.69,29.719999999999999,100.19],"textposition":["auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto"],"type":"bar","name":"0.10","marker":{"color":"rgba(102,194,165,1)","line":{"color":"rgba(102,194,165,1)"}},"textfont":{"color":"rgba(102,194,165,1)"},"error_y":{"color":"rgba(102,194,165,1)"},"error_x":{"color":"rgba(102,194,165,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Büyük Valf","Şasi","Küçük Valf","Arka Tabla","Motor Şanzıman","Arka Tabla & Motor","Soğutma Paketi","Soğutma Paketi Proses","Hidrolik Yakıt Tankı","Ön Yükleyici","Kabin Tekerlek Backhoe","Ana Gövde 2","Ana Gövde 3","Ana Gövde 4","Ana Gövde 5","Ana Gövde 6"],"y":[20.91,15.56,14.789999999999999,92.400000000000006,44.289999999999999,18.699999999999999,120.19,69.510000000000005,203.94,285.94,115.58,7.4500000000000002,11.390000000000001,5.3499999999999996,28.100000000000001,102.84999999999999],"text":[20.91,15.56,14.789999999999999,92.400000000000006,44.289999999999999,18.699999999999999,120.19,69.510000000000005,203.94,285.94,115.58,7.4500000000000002,11.390000000000001,5.3499999999999996,28.100000000000001,102.84999999999999],"textposition":["auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto"],"type":"bar","name":"0.15","marker":{"color":"rgba(252,141,98,1)","line":{"color":"rgba(252,141,98,1)"}},"textfont":{"color":"rgba(252,141,98,1)"},"error_y":{"color":"rgba(252,141,98,1)"},"error_x":{"color":"rgba(252,141,98,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":["Büyük Valf","Şasi","Küçük Valf","Arka Tabla","Motor Şanzıman","Arka Tabla & Motor","Soğutma Paketi","Soğutma Paketi Proses","Hidrolik Yakıt Tankı","Ön Yükleyici","Kabin Tekerlek Backhoe","Ana Gövde 2","Ana Gövde 3","Ana Gövde 4","Ana Gövde 5","Ana Gövde 6"],"y":[29.690000000000001,21.359999999999999,17.170000000000002,88.629999999999995,40.299999999999997,12.26,125.70999999999999,67.680000000000007,202.66,290.33999999999997,102,5.1900000000000004,2.71,5.6299999999999999,28.350000000000001,103.66],"text":[29.690000000000001,21.359999999999999,17.170000000000002,88.629999999999995,40.299999999999997,12.26,125.70999999999999,67.680000000000007,202.66,290.33999999999997,102,5.1900000000000004,2.71,5.6299999999999999,28.350000000000001,103.66],"textposition":["auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto","auto"],"type":"bar","name":"0.20","marker":{"color":"rgba(141,160,203,1)","line":{"color":"rgba(141,160,203,1)"}},"textfont":{"color":"rgba(141,160,203,1)"},"error_y":{"color":"rgba(141,160,203,1)"},"error_x":{"color":"rgba(141,160,203,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

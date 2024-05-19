@@ -17,7 +17,7 @@ Montaj hattındaki zamanımız boyunca, operatörlerin görevleri eşit süreler
 -   **OHS:** İş Şağlığı ve Güvenliği
 
 | Alt Grup       | Açıklama                                                                                                                                            | Tür  |
-|----------------|----------------------------------------|----------------|
+|-------------------|----------------------------------|-------------------|
 | Valf ve Şasi   | 2WS arka dingillerinin 4WS dingillerine benzer açık paletlerle gelmesi ve operatörün paketleri açması, verimsizlik ve zaman kaybına neden olur.     | NVAA |
 | Valf ve Şasi   | Operatörlerin şasiyi montaj alanına çekmesi ve bu durum zaman kaybına ve işgücünün verimsiz kullanımına neden olur.                                 | NVAA |
 | Valf ve Şasi   | Stabilizatör ve şasi alt gruplarında çalışan operatörün aynı olmasına rağmen ilgili alt grupların birbirine yakın olmaması verimliliği azaltabilir. | NVAA |
@@ -43,3 +43,107 @@ Bu tablo, analizimiz sırasında alt gruplarda gözlemlenen zorlukların genel b
 ## Arena Çıktısı
 
 ![](images/clipboard-3224613032.png)
+
+### Grafikler
+
+::: {style="text-align: justify;"}
+Bu grafik, üç farklı senaryo boyunca her parça için zaman dağılımının gösteriyor. Bu grafikteki parça bir TLB'yi temsil eder. "Bekleme Zamanı", bir parçanın belirli bir işlem başlamadan önce sıraya alınarak geçirdiği süreyi temsil eder. Bu bekleme zamanı, bazı operatörlerin farklı alt gruplara ait montajlarda çalışması nedeniyle gerçekleşir. Dolayısıyla, bir parça geldiğinde belirli bir operatör uygun değilse, parça, operatör işlemi başlatana kadar sıraya alınır. Buna karşılık, "Katma Değer Zaman" metriği, bir parçanın bir montaj içinde geçirdiği gerçek işleme süresini temsil eder. Son olarak, "Toplam Zaman" basitçe bekleme süresi ve katma değer süresinin toplam süresidir. Grafikten anlaşıldığı üzere bir TLB'nin tamamlanması için geçen toplam süre yaklaşık olarak 39-40 saattir ve bu süre şirket tarafından sağlanan verilerle uyumludur.
+:::
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+library(readxl)
+library(tidyr)
+library(plotly)
+
+# Read data from the "Total" sheet
+total_data <- read_excel("arena.xlsx", sheet = "Total")
+
+long_total_data <- total_data %>%
+  pivot_longer(cols = c("0.10", "0.15", "0.20"), 
+               names_to = "Level", 
+               values_to = "Value")
+
+# Create interactive bar chart for Total Data
+plot_total <- plot_ly(long_total_data, 
+                      x = ~places, 
+                      y = ~Value, 
+                      color = ~Level, 
+                      type = 'bar', 
+                      text = ~Value, 
+                      textposition = 'auto') %>%
+  layout(title = "Toplam Zaman", 
+         xaxis = list(title = ""), 
+         yaxis = list(title = "Zaman"), 
+         barmode = 'dodge',
+         legend = list(title = list(text = 'Varyans Katsayısı')))
+
+# Display the plot
+plot_total
+```
+
+::: {style="text-align: justify;"}
+Bu grafik, her alt grup ve istasyonun işlem sürelerini, yani her parça için işlem modüllerinde geçirilen toplam süreyi göstermektedir. Burada, backhoe alt grubunun en uzun işlem sürelerine sahip olduğunu, arka tabla alt grubunun ise en kısa süreye sahip olduğunu açıkça görebiliyoruz. Backhoe alt grubu için, parçaların gerektiği anda doğrudan çalışma istasyonuna teslim edildiği bir tek parça akış sistemi uygulayabiliriz; bu sayede hareket ve bekleme sürelerini en aza indirir ve insan becerisi gerektirmeyen tekrarlayan görevleri otomatikleştirerek operatörlerin daha karmaşık görevler için serbest kalmasını sağlayabiliriz.
+:::
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# Read data from the "Process" sheet
+process_data <- read_excel("arena.xlsx", sheet = "Process")
+
+# Reshape the data from wide to long format
+long_process_data <- process_data %>%
+  pivot_longer(cols = c("0.10", "0.15", "0.20"), 
+               names_to = "Level", 
+               values_to = "Value")
+
+# Create interactive bar chart for Process Data
+plot_process <- plot_ly(long_process_data, 
+                        x = ~places, 
+                        y = ~Value, 
+                        color = ~Level, 
+                        type = 'bar', 
+                        text = ~Value, 
+                        textposition = 'auto') %>%
+  layout(title = "İşleme Zamanları", 
+         xaxis = list(title = "", tickangle = 45), 
+         yaxis = list(title = "Zaman"), 
+         barmode = 'dodge',
+         legend = list(title = list(text = 'Varyans Katsayısı')))
+
+# Display the plot
+plot_process
+
+```
+
+::: {style="text-align: justify;"}
+Bu grafik, her istasyonda farklı alt gruplar için beklemeye ilişkin süre dağılımlarını göstermektedir. Ön Yükleyici alt grubunun en uzun kuyruklara sahip olduğunu, bu durumun önündeki istasyonda bir potansiyel darboğaza işaret ettiğini göstermektedir. Ancak gecikmenin nedenini belirlemek için daha detaylı bir analiz gerekmektedir. Bu istasyonun süreçlerini düzenlemek, verimliliği önemli ölçüde artırabilir. Buna karşılık, 4. İstasyon'da Ana Gövde 4 işleminin en kısa bekleme sürelerini sergilediği görülmektedir.
+:::
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# Read data from the "Wait" sheet
+wait_data <- read_excel("arena.xlsx", sheet = "Wait")
+
+long_wait_data <- wait_data %>%
+  pivot_longer(cols = c("0.10", "0.15", "0.20"), 
+               names_to = "Level", 
+               values_to = "Value")
+
+# Create interactive bar chart for Wait Data
+plot_wait <- plot_ly(long_wait_data, 
+                     x = ~places, 
+                     y = ~Value, 
+                     color = ~Level, 
+                     type = 'bar', 
+                     text = ~Value, 
+                     textposition = 'auto') %>%
+  layout(title = "Bekleme Zamanları", 
+         xaxis = list(title = "", tickangle = 45), 
+         yaxis = list(title = "Zaman"), 
+         barmode = 'dodge',
+         legend = list(title = list(text = 'Varyans Katsayısı')))
+
+# Display the plot
+plot_wait
+```
