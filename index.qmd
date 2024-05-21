@@ -19,5 +19,11 @@ format:
 ## Proje Özeti
 
 ::: {style="text-align: justify;"}
-Türk Traktör'ün TLB iş makineleri için kullanmakta olduğu yeni montaj hattı, istenilen verimlilik seviyesinde işlememektedir. Bu durum, üretim sürecinde aksamalara ve kaynakların etkili değerlendirilememesine yol açmakta olup, hattın günlük kapasitesinin altında çalışmasına neden olmaktadır. Bu doğrultuda, montaj hattının verimliliğini artırmayı, operatör- operasyon dengesini sağlamayı ve alt gruplar özelinde operasyonel süreçleri iyileştirerek günlük üretim kapasitesini arttırmayı amaçlamaktayız.
+Türk Traktör'ün TLB iş makineleri için kullandığı yeni montaj hattı, beklenen verimlilik seviyesinde çalışmamaktadır. Bu sorun, üretim sürecinde aksamalara ve kaynakların etkili kullanılmamasına neden olarak hattın günlük kapasitesinin altında kalmasına yol açmaktadır. Bu durumun düzeltilmesi amacıyla, montaj hattının verimliliğini artırmak, operatör ve operasyon dengesini sağlamak ve alt gruplar özelinde operasyonel süreçleri iyileştirerek günlük üretim kapasitesini artırmak hedeflenmiştir.
+
+Mevcut yerleşim ölçümleri alınarak olası değişiklikler teknik çizim programına aktarılmış ve operasyonel akış diyagramları çizilmiştir. Bu diyagramlar, dar boğazları tespit etmek ve israfa neden olan aşamaları ortadan kaldırmak amacıyla kullanılmıştır.
+
+Çalışma kapsamında, her göreve harcanan zamanı ölçerek verimsizlikleri ve iyileştirme alanlarını belirlemek için MTM (Methods-Time Measurement) yöntemi uygulanmıştır. Ancak, istasyonlarda operasyon sürelerinin uzunluğu nedeniyle her görev için birden fazla ölçüm alınamamıştır. Bu sebeple zaman etüdü simülasyona aktarılırken Tekdüze (Uniform) Dağılım ve farklı varyans katsayıları kullanılarak üç farklı senaryo oluşturulmuştur. Bu senaryolar Python kullanılarak geliştirilmiştir.
+
+Sonuç olarak, bu çalışma montaj hattının verimliliğini artırmak ve günlük üretim kapasitesini en üst düzeye çıkarmak için stratejik iyileştirmeler yapmayı hedeflemektedir.
 :::
