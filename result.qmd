@@ -105,7 +105,7 @@ plot_process <- plot_ly(long_process_data,
                         type = 'bar', 
                         text = ~Value, 
                         textposition = 'auto') %>%
-  layout(title = "İşleme Sureleri", 
+  layout(title = "İşlem Sureleri", 
          xaxis = list(title = "", tickangle = 45), 
          yaxis = list(title = "Sure"), 
          barmode = 'dodge',
@@ -146,4 +146,107 @@ plot_wait <- plot_ly(long_wait_data,
 
 # Display the plot
 plot_wait
+```
+
+## Örnek Çalışma
+
+![Mevcut Düzen](11.jpg){fig-align="center"}
+
+::: {style="text-align: justify;"}
+Montaj alanında tespit edilen darboğazlar üzerinde yerleşim iyileştirmesi yapılarak bu bölümlerde operatör hareketi bazında **45 dakika**, günlük operatör/zamandan ise **%10** değerinde kazanç elde edilmiştir.
+:::
+
+![Önerilen Düzen](10.jpg){fig-align="center"}
+
+### İyileştirmeler Sonrası Simülasyon Sonuçları
+
+#### **Toplam Süre**
+
+::: {style="text-align: justify;"}
+Yapılan uygulamalar sonucunda, alt gruplarda istasyon süreleri bazında **%6,26** oranında bir iyileşme gerçekleştirilmiştir. Bu iyileşme, süreç optimizasyonları ve verimlilik artırıcı yöntemlerin devreye alınması ile elde edilmiştir. Özellikle, istasyonlar arasındaki **iş akışlarının daha etkili bir şekilde düzenlenmesi** bu başarıda önemli rol oynamıştır. Ayrıca, bu süreçte yapılan detaylı analizler ve sürekli iyileştirme yaklaşımları da dikkate değer katkılar sağlamıştır.
+:::
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# Read data from the "Total" sheet
+total_data_new <- read_excel("arena1.xlsx", sheet = "Total")
+
+long_total_data_new <- total_data_new %>%
+  pivot_longer(cols = c("Eski", "Yeni"), 
+               names_to = "Level", 
+               values_to = "Value")
+
+# Create interactive bar chart for Total Data
+plot_total_new <- plot_ly(long_total_data_new, 
+                      x = ~places, 
+                      y = ~Value, 
+                      color = ~Level, 
+                      type = 'bar', 
+                      text = ~Value, 
+                      textposition = 'auto') %>%
+  layout(title = "Toplam Sure", 
+         xaxis = list(title = ""), 
+         yaxis = list(title = "Sure"), 
+         barmode = 'dodge')
+
+# Display the plot
+plot_total_new
+```
+
+#### **İşlem Süreleri**
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# Read data from the "Total" sheet
+process_data_new <- read_excel("arena1.xlsx", sheet = "Process")
+
+long_process_data_new <- process_data_new %>%
+  pivot_longer(cols = c("Eski", "Yeni"), 
+               names_to = "Level", 
+               values_to = "Value")
+
+# Create interactive bar chart for Total Data
+plot_process_new <- plot_ly(long_process_data_new, 
+                      x = ~places, 
+                      y = ~Value, 
+                      color = ~Level, 
+                      type = 'bar', 
+                      text = ~Value, 
+                      textposition = 'auto') %>%
+  layout(title = "İşlem Sureleri", 
+         xaxis = list(title = ""), 
+         yaxis = list(title = "Sure"), 
+         barmode = 'dodge')
+
+# Display the plot
+plot_process_new
+```
+
+#### **Bekleme Süreleri**
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+# Read data from the "Total" sheet
+wait_data_new <- read_excel("arena1.xlsx", sheet = "Wait")
+
+long_wait_data_new <- wait_data_new %>%
+  pivot_longer(cols = c("Eski", "Yeni"), 
+               names_to = "Level", 
+               values_to = "Value")
+
+# Create interactive bar chart for Total Data
+plot_wait_new <- plot_ly(long_wait_data_new, 
+                      x = ~places, 
+                      y = ~Value, 
+                      color = ~Level, 
+                      type = 'bar', 
+                      text = ~Value, 
+                      textposition = 'auto') %>%
+  layout(title = "Bekleme Sureleri", 
+         xaxis = list(title = ""), 
+         yaxis = list(title = "Sure"), 
+         barmode = 'dodge')
+
+# Display the plot
+plot_wait_new
 ```
