@@ -5,13 +5,13 @@ title: "Proje Kapsamı"
 ![](tlb.png)
 
 ::: {style="text-align: justify;"}
-Proje, Türk Traktör'deki TLB iş makineleri montaj hattındaki verimsizliklere odaklanacak şekilde titizlikle tasarlanmıştır. Kapsamlı çerçevesi şu ana alanları içermektedir:
+Proje, Türk Traktör'deki TLB iş makineleri montaj hattındaki verimsizliklere odaklanacak şekilde tasarlanmıştır. Kapsamlı çerçevesi şu ana alanları içermektedir:
 
 -   **Montaj Hattı İyileştirmesi:** İstasyon süresini en aza indirmek, kapasiteyi artırmak ve genel montaj sürecini iyileştirmek için Yalın Üretim ilkelerinin uygulanması.
 
 -   **Yerleşim Yeri Planlaması:** Operasyonel verimliliği ve iş akışını maksimize etmek için montaj hattının stratejik olarak yeniden değerlendirilmesi ve yeniden tasarımı.
 
--   **Hat Dengeleme:** Montaj hattındaki farklı istasyonlar arasındaki iş yükünün hassas bir şekilde dengelenmesi, darboğazları azaltmak ve kaynak kullanımını optimize etmek.
+-   **Hat Dengeleme:** Montaj hattındaki farklı istasyonlar arasındaki iş yükünün hassas bir şekilde dengelenmesi, darboğazları tespit etmek ve kaynak kullanımını optimize etmek.
 
 -   **Alt Grup Organizasyonu:** Montaj hattına katkıda bulunan alt grupların düzenlenmesi ve optimize edilmesi, bileşenlerin kusursuz ve verimli bir şekilde akışını sağlamak.
 
